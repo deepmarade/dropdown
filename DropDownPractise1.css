@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    
+}
+nav{
+    background-color: #164303;
+    width: 10%;
+    height: 100vh;
+    
+}
+#cont{
+    list-style-type: none;
+    background-color: #164303;
+    
+
+}
+.home{
+    padding-top: 20%;
+}
+.aa{
+    padding: 10%;
+    padding-left: 35%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    display: block;
+}
+.b{
+    padding: 10%;
+}
+a:hover{
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+/* .menu{
+    background-color: rgb(127, 255, 138);
+    position: relative;
+    display: none;
+    
+} */
+
+
+/* RIGHT SIDE DROPDOWN */
+.menu{
+    background-color: #164303;
+    position: absolute;
+    width: 120%;
+    
+    top: 0%;
+    left: 100%;
+    display: none;
+    
+}
+.drop{
+    position: relative;
+    
+}
+.drop:hover .menu{
+    display: block;
+}
+#veg-menu{
+    background-color: #164303;
+}
+#drop-veg{
+ position: relative;
+}
+#veg-menu{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+.vl{
+    padding: 9%;
+    padding-top: 15%;
+    
+    width: 70px;
+    height: 30px;
+
+}
+#drop-veg:hover #veg-menu{
+    display: block;
+}
+#nonveg-menu{
+    background-color: #164303;
+}
+#drop-nonveg{
+ position: relative;
+}
+.v2{
+    padding: 9%;
+    padding-top: 10%;
+    
+    width: 120px;
+    height: 30px;
+
+}
+#nonveg-menu{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop-nonveg:hover #nonveg-menu{
+    display: block;
+}
+.nv{
+    border-bottom: solid;
+    padding-bottom: 5%;
+}
